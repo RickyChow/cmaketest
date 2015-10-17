@@ -11,4 +11,4 @@ include_directories(${Boost_INCLUDE_DIRS})
 include_directories(${projA_INCLUDE_DIRS})
 
 add_executable(${PROJECT_NAME} ${SRC} ${HEADERS})
-target_link_libraries(${PROJECT_NAME} boost_unit_test_framework projA)
+target_link_libraries(${PROJECT_NAME} projA)
