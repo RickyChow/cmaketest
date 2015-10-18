@@ -1,5 +1,5 @@
-MKDIR build
-CD build
+mkdir build
+vf build
 cmake -G "MinGW Makefiles" ..
 mingw32-make
-CD ..
+cd ..
